@@ -47,7 +47,7 @@ body {
 }
 
 #reasons li {
-	font-size: 1.6em;
+	font-size: 1.2em;
 	font-family: 'Raleway', sans-serif;
 	background-color: rgb(238,130,238);
 	border-radius: 10px;
@@ -59,6 +59,8 @@ body {
 
 #thirdRow {
 	margin-top: 65px;
+	display: flex;
+	justify-content: center;
 }
 
 .card3 {
@@ -69,13 +71,26 @@ body {
 	padding-top: 10px;
 	font-size: 1.6em;
 	font-family: 'Raleway', sans-serif;
+	margin: auto 25px;
 }
 
 #history {
 	list-style: none;
 }
 
+#fourthRow {
+	display: flex;
+	justify-content: center;
+	margin: 50px auto;
+}
 
+#btn {
+	background-color: black;
+	color: rgb(238,130,238);
+	font-size: 1.5em;
+	border-radius: 15px;
+	padding: 5px;
+}
 
 
 

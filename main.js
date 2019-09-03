@@ -8,4 +8,8 @@ $(document).ready(function () {
 	});
 	
 	
+	//add functionality for submit button
+	//add to the tracker total when money is added
+	//add to history as well
+	
 });
