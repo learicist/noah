@@ -12,4 +12,9 @@ $(document).ready(function () {
 	//add to the tracker total when money is added
 	//add to history as well
 	
+	$('#btn').click(function () {
+		//alert('btn works');
+		$('#form').removeClass('hidden');
+	});
+	
 });
