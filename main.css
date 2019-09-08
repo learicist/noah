@@ -93,8 +93,29 @@ body {
 	outline: none;
 }
 
-#form {
+#donateForm {
 	list-style: none;
+}
+
+.textbox {
+	background-color: black;
+	color: rgb(238,130,238);
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px auto;
+}
+
+::placeholder {
+	color: rgb(238,130,238);
+	font-size: 1.25em;
+}
+
+#send {
+	background-color: black;
+	color: rgb(238,130,238);
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 1.3em;
 }
 
 .hidden {
