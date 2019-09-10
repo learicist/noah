@@ -74,6 +74,10 @@ body {
 	margin: auto 25px;
 }
 
+/* #contributions {
+	overflow: scroll;
+} */
+
 #history {
 	list-style: none;
 }

@@ -17,4 +17,23 @@ $(document).ready(function () {
 		$('#form').toggleClass('hidden');
 	});
 	
+	$('#send').on({
+		
+		'mouseenter': function () {
+			$(this).attr('title', 'You will not be charged when clicking this button');
+		},
+		
+		'click': function () {
+			let name = $("input[name='name']").val();
+			let amount = $("input[name='amount']").val();
+			let msg = $("textarea[name='message']").val();
+			
+			$('#history').append('$' + amount + " --> " + name + '<br>' + msg);
+			
+			console.log(name, amount, msg);
+		}
+		
+		
+	});
+	
 });
